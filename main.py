@@ -46,7 +46,7 @@ login.send_keys(Keys.ENTER)
 driver.switch_to.window(base_window)
 print(driver.title)
 
-time.sleep(7)
+time.sleep(5)
 location = driver.find_element_by_xpath('//*[@id="t-1483503441"]/div/div/div/div/div[3]/button[1]')
 location.click()
 time.sleep(2)
@@ -56,7 +56,7 @@ time.sleep(2)
 cookies = driver.find_element_by_xpath('//*[@id="t--771258051"]/div/div[2]/div/div/div[1]/button')
 cookies.click()
 
-time.sleep(3)
+time.sleep(5)
 # like_button = driver.find_element_by_xpath('//*[@id="t--771258051"]/div/div[1]/div/div/main/div/div[1]/div/div[2]/div[4]/button')
 # like_button.click()
 for i in range(10):
